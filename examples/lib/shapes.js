@@ -1,8 +1,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-// Import shape classes
-const { Triangle, Circle, Square } = require('./lib/shapes');
+
+const { Triangle, Circle, Square } = require('./lib/shapes.test');
 
 async function promptUser() {
     const answers = await inquirer.prompt([
