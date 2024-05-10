@@ -1,4 +1,4 @@
-// lib/logoGenerator.js
+//logoGenerator.js
 const { promptUserForLogoDetails } = require('./inputHandler');
 const { writeSVGToFile } = require('./fileWriter');
 const { Triangle, Circle, Square } = require('./shapes');

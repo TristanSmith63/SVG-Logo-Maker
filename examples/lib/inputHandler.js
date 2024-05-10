@@ -1,4 +1,4 @@
-// lib/inputHandler.js
+//inputHandler.js
 const inquirer = require('inquirer');
 const { validateColorInput, validateTextInput } = require('./utils');
 
